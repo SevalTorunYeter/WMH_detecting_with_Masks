@@ -1,14 +1,14 @@
 # WMH  detection study
 
 This study is about detecting WMH (white matter hyperintensity) in brains that have vascular or ischemic disease. Axial T2 Flair images were used for original study. 
-Using these files with that order is recommended:
-1.Mask1.m (To obtain a mask. You can skip this, Mask2.m has better performance)
-2.Mask2.m (To obtain a mask.)
-3.Tresholding (To detect WMH)
-4.CreateTargetAndSource.m (It's for using ExpertView.mlapp, you can skip this if you have proper files.)
-5.ExpertView.mlapp (This is for manual marking. If you don't interest to evaluating the results, you can skip this)
-6.AnalyzeResult.m (If you don't interest to evaluating the results you can skip this)
-7.SuccessEvaluation.m (If you don't interest to evaluating the results you can skip this)
+Using these files with that order is recommended:  
+1.Mask1.m (To obtain a mask. You can skip this, Mask2.m has better performance)  
+2.Mask2.m (To obtain a mask.)  
+3.Tresholding (To detect WMH)  
+4.CreateTargetAndSource.m (It's for using ExpertView.mlapp, you can skip this if you have proper files.)  
+5.ExpertView.mlapp (This is for manual marking. If you don't interest to evaluating the results, you can skip this)  
+6.AnalyzeResult.m (If you don't interest to evaluating the results you can skip this)  
+7.SuccessEvaluation.m (If you don't interest to evaluating the results you can skip this)  
 
 There are files were used:
 
