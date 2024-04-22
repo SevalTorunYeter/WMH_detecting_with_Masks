@@ -21,7 +21,7 @@ SampleImages{1 x 3}(20 x 20 x 5) int16.
 To achieve this format, we added images of all people consecutively.
 
 ## Mask1.m
-To use this file you need to have 2 types of brain MR images in .nifti form, turn them to .mat file like above and load them. I used this names: MRI and SPM_wm100.
+To use this file you need to have 2 types of brain MR images in .nifti form, turn them to .mat file like above, normalize their pixels 0-255 and load them. I used this names: MRI and SPM_wm100.
 
 The first .mat file should be either usual brain MR image or SkullStripped brain MR image (for skull-stripping I used BET from FSL -https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/BET-). 
 This first .mat file will be the base for determining WMH.   
